@@ -1,0 +1,4 @@
+html, .container { 
+    height: 100%;
+    background-image: linear-gradient(to top right, #A18CD1, #FBC2eb);
+}
