@@ -72,3 +72,10 @@ button {
     box-shadow: inset -10.5em 0 0 0
     #ff96ad, inset 10.5em 0 0 0 #ff96ad;
 }
+
+@media screen 
+    and (max-width: 500px) {
+        .container {
+            margin: auto;
+        }
+    }
