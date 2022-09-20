@@ -10,23 +10,35 @@ body {
 }
 
 .box {
-    position: absolute;
+    position: relative;
     top: 30%;
-    left: 42%;
-    width: 400px;
+    left: 25%;
+    width: 300px;
+    height: 200px;
     padding: 40px;
     background: #fff;
+    margin: 15%;
 }
 
-.div {
+form { 
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+h3 {
     text-align: center;
-    margin: 15px;
 }
 
-.form{
-    width: 280px;
-    position: relative; 
-    top: 100px; 
-    left: 40px;
-    background-color: white;
+.emailInput, .phoneInput {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.date {
+    vertical-align: baseline;
+    margin: 10px;
+    padding: 5px;
 }
